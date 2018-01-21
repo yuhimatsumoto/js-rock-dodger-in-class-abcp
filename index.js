@@ -75,16 +75,24 @@ function endGame() {
 }
 
 function moveDodger(e) {
-  const code = e.which
+  // if the key is the right arrow key, move the dodger to the right
+  // if the key is the left arrow key, move the dodger to the left
+}
 
-  if ([LEFT_ARROW, RIGHT_ARROW].indexOf(code) > -1) {
-    e.preventDefault()
-    e.stopPropagation()
-  }
+function moveDodgerLeft() {
+  
+}
 
-  if (code === LEFT_ARROW) {
-    moveDodgerLeft()
-  } else if (code === RIGHT_ARROW) {
+function moveDodgerRight() {
+  
+}
+
+function positionToInteger(p) {
+  return parseInt(p.split('px')[0]) || 0
+}
+
+
+Add CommentC
     moveDodgerRight()
   }
 }
