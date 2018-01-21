@@ -92,6 +92,9 @@ function moveDodger(e) {
 }
 
 function moveDodgerLeft() {
+  // remove 4 px from the current dodger left style
+  // find the current location/number of pixels
+  // subtract 4 from that number 
 
 }
 
