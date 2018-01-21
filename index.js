@@ -75,6 +75,14 @@ function endGame() {
 }
 
 function moveDodger(e) {
+  e.preventDefault ();
+  e.stopPropagation ();
+  if (e.which === 37) {
+    moveDodgerLeft ()
+  } else if (e.which === 39) {
+    moveDodgerRight ();
+  }
+}
   // if the key is the right arrow key, move the dodger to the right
   // if the key is the left arrow key, move the dodger to the left
   // use window.requestAnimationFrame, move the element 4px
