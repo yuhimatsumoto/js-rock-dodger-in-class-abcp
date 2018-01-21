@@ -77,14 +77,15 @@ function endGame() {
 function moveDodger(e) {
   // if the key is the right arrow key, move the dodger to the right
   // if the key is the left arrow key, move the dodger to the left
+  // use window.requestAnimationFrame, move the element 4px
 }
 
 function moveDodgerLeft() {
-  
+
 }
 
 function moveDodgerRight() {
-  
+
 }
 
 function positionToInteger(p) {
