@@ -96,7 +96,8 @@ function moveDodgerLeft() {
   // find the current location/number of pixels
   // subtract 4 from that number of pixels
   // set the NEW value of dodger.style.left to that NEW number of pixels
-  var myPositionInPixels = 
+  var myPositionInPixels = document.getElementById("dodger").style.left;
+  var myPositionInNum
 }
 
 function moveDodgerRight() {
